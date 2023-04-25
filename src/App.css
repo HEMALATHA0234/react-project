@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#hema{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: oblique;
+  font-size: 70px;
+  color: rgb(255, 0, 8);
+  padding-top: 40px; 
+  
+}
+#rani{
+  text-align:right;
+  font-size: 25px;;
+}
+body {
+  font-family:monospace;
+  background:peachpuff;
+    background-color: #f00;
+    animation-name: colorChange;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  
+}
+
+#quote-box {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7EFjgC5Gll0nWzcwflT_CvsNSNh3HdBzJEKzW9Pi_7b3CAVWXoQOq74EmepFZm317VHw&usqp=CAU");
+  width: 60rem;
+  margin: 4rem auto;
+  padding: 70px;
+  border-radius: 200px;
+  border-color: black;
+  font-family:fantasy;
+  text-align: center;
+  font-size: medium;
+}
+
+#text {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+#author {
+  display: flex;
+  justify-content: flex-end;
+  font-family:cursive;
+  font-size:x-large;
+}
+
+#buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+
+
+
+
+
+#new-quote {
+  background:goldenrod;
+  border: none;
+  color:red;
+  padding:10px;
+  font-size: .9rem;
+  font-weight: bold;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+}
+
+#new-quote:hover {
+  opacity: 0.9;
+}
+@keyframes colorChange {
+  0% {
+    background-color:beige;
+  }
+  50% {
+    background-color:goldenrod;
+  }
+  100% {
+    background-color:palegreen;
+  }
+}
+#tweet-quote{
+  width: 150px;
+  height: 150px;
+}
